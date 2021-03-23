@@ -2,10 +2,8 @@
 
 > Compre pokémon de todos os tipos
 
-<h3><i>Home Page</i></h3>
+<h3><i>Página Principal</i></h3>
 <img alt="Demo on Netlify" src="https://github.com/caioh123/Conte-com-a-debs/blob/main/src/images/debs1.PNG?raw=true">
-
-<h3><i>PokeStore Store</i></h3>
 <img alt="Demo on Netlify" src="https://github.com/caioh123/Conte-com-a-debs/blob/main/src/images/debs2.PNG?raw=true">
 
 ### Acesso
