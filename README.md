@@ -1,6 +1,6 @@
 # Conte Com a debs
 
-> Compre pokémon de todos os tipos
+> Um site para trabalhos acadêmicos.
 
 <h3><i>Página Principal</i></h3>
 <img alt="Demo on Netlify" src="https://github.com/caioh123/Conte-com-a-debs/blob/main/src/images/debs1.PNG?raw=true">
