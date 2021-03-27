@@ -10,10 +10,12 @@ import {
   NavBtnLink,
   NavItemBtn,
 } from "./Navbar.elements";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars, FaTimes, FiInstagram } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
 import { Button } from "../../globalStyles";
 import Logo from "./logo1.png";
+import { FaInstagram } from "react-icons/fa";
+import "../Services/Services.css";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -70,6 +72,7 @@ const Navbar = () => {
                 </NavBtnLink>
               )}
             </NavItemBtn>
+            <FaInstagram className="iconMenu" />
           </NavMenu>
         </NavbarContainer>
       </Nav>

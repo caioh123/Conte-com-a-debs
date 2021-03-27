@@ -32,7 +32,7 @@ export const NavLogo = styled(Link)`
   align-items: center;
   .img {
     width: 80px;
-    height: 80px;
+    height: 90px;
     display: block;
     text-indent: -9999px;
   }

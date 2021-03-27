@@ -8,8 +8,8 @@ export const homeObjOne = {
   lightTopLine: false,
   lightTextDesc: false,
   buttonLabel: "Entre em contato",
-  description: "Nós ajudamos você a alcançar seus objetivos acadêmicos",
-  headline: "Especialistas em trabalhos acadêmicos",
+  description: "PENSA AI ",
+  headline: "Uma empresa que faz tudo por você!",
   lightText: false,
   topLine: "Conte Com a Debs",
   img: imgReu,
@@ -63,4 +63,8 @@ export const homeObjFour = {
   img: require("../../images/svg-1.svg"),
   alt: "Image",
   start: "",
+};
+
+export const formObj = {
+  formTitle: "Entre em contato conosco",
 };

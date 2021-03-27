@@ -36,9 +36,19 @@ export const InfoSection = ({
           <InfoRow imgStart={imgStart}>
             <InfoColumn>
               <TextWrapper>
-                <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
+                <TopLine
+                  style={{ fontSize: "28px" }}
+                  lightTopLine={lightTopLine}
+                >
+                  {topLine}
+                </TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
-                <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
+                <Subtitle
+                  style={{ fontSize: "22px" }}
+                  lightTextDesc={lightTextDesc}
+                >
+                  {description}
+                </Subtitle>
                 <Link to="/sign-up">
                   <Button big fontBig primary={primary}>
                     {buttonLabel}
