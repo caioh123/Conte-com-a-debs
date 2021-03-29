@@ -1,15 +1,18 @@
 import emailjs from "emailjs-com";
 import React from "react";
 import "../Form/Form.css";
-import { API_KEY, TEMPLATE_KEY, EMAIL } from "./API";
 
 export default function ContactUs() {
   function sendEmail(e) {
     e.preventDefault();
-    console.log(e);
 
     emailjs
-      .sendForm(`${EMAIL}`, `${TEMPLATE_KEY}`, e.target, `${API_KEY}`)
+      .sendForm(
+        `${process.env.REACT_APP_EMAIL}`,
+        `${process.env.REACT_APP_TEMPLATE_KEY}`,
+        e.target,
+        `${process.env.REACT_APP_API_KEY}`
+      )
       .then(
         (result) => {
           console.log(result.text);
